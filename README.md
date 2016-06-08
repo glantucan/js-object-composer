@@ -17,12 +17,12 @@ TODO: Include images of the original objects and how the information gets copied
 
 TODO: Try to avoid classical inheritance terms and expressions in the explanations
 
-Explain why I think it's better to use flattened prototype chains instead of compose inheriting one prototype after another -> mutability of the prototype chain -> you don't loose anithing, you can compose again to update the changed methods and shared data.
+TODO: Explain why I think it's better to use flattened prototype chains instead of compose inheriting one prototype after another -> mutability of the prototype chain -> you don't loose anithing, you can compose again to update the changed methods and shared data.
 
 
 ## Intended features
 - [x] Allow composing objects by borrowing functionallity or extending with data
-- [x] Produce objects of constructor functions for those objects
+- [x] Produce objects and/or constructor functions for those objects
 - [ ] Introduce TDD in the dev workflow (Have to learn TDD first)
 - [ ] Figure out what to do about circular references. At least for typical use cases like linked lists or trees. Are they a problem?
 - [ ] Allow decomposing (is it possible in all cases?). I don't see why it would be useful but I want to check it out
