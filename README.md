@@ -1,10 +1,11 @@
 # js-object-composer
 Object composer creates objects from other objects. The returned object doesn't inherit their functionality in a ''classical'' way of thinking. It just borrows it.
 
-WARNING: PRE-ALPHA version. If yoou are interested in the functionalaty this project is intended to provide in the future I recomend you to use [stampit](https://github.com/stampit-org/stampit) which is stable and it's ben tested in lots of production projects.
+**WARNING: PRE-ALPHA version**. 
+If you are interested in the functionality this project is intended to provide in the future I recomend you to use [stampit](https://github.com/stampit-org/stampit) which is stable and it's ben tested in lots of production projects.
 
 ## Composition over inheritance in javascript
-I like composition much more tha inheritance when trying to reuse code. While trying to understand prototypal inheritance deeper I found a talk given by Eric Elliot talking a project of his, stampit. It sounded very well and I remember having a look at the source code and not understanding almost anything. But I thought I could try to replicate the functionality and use the exercise to learn more about it.
+I like composition much more tha inheritance when trying to reuse code. While trying to understand prototype chains deeper and bend them to my likings I found a [talk](https://www.youtube.com/watch?v=lKCCZTUx0sI) given by Eric Elliott talking a project of his, stampit. It sounded very well and I remember having a look at the source code and not understanding almost anything. But I thought I could try to replicate the functionality and use the exercise to learn more about it.
 
 The initial objective for this mini-library is to help create objects and borrow functions from other ones in the way a usually do it, sing constructor functions and forgetting inheritance is there at all. 
 The constructors I build only put instance data on the object itself (as owned properties). The rest (methods and shared data betwen objects of the same type) goes in the delegate prototype. 
