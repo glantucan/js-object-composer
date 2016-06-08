@@ -21,11 +21,11 @@ Explain why I think it's better to use flattened prototype chains instead of com
 
 
 ## Intended features
-[x] Allow composing objects by borrowing functionallity or extending with data
-[x] Produce objects of constructor functions for those objects
-[ ] Introduce TDD in the dev workflow (Have to learn TDD first)
-[ ] Figure out what to do about circular references. At least for typical use cases like linked lists or trees. Are they a problem?
-[ ] Allow decomposing (is it possible in all cases?). I don't see why it would be useful but I want to check it out
-[ ] Allow composing constructor functions (as stampit does)
-[ ] Stabilize at leas the most important API methods (Need to find the right terms for each operation)
+- [x] Allow composing objects by borrowing functionallity or extending with data
+- [x] Produce objects of constructor functions for those objects
+- [ ] Introduce TDD in the dev workflow (Have to learn TDD first)
+- [ ] Figure out what to do about circular references. At least for typical use cases like linked lists or trees. Are they a problem?
+- [ ] Allow decomposing (is it possible in all cases?). I don't see why it would be useful but I want to check it out
+- [ ] Allow composing constructor functions (as stampit does)
+- [ ] Stabilize at leas the most important API methods (Need to find the right terms for each operation)
  
